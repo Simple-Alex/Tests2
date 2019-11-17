@@ -4,7 +4,7 @@ public class CaseB {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int sum = sc.nextInt();
-        if (sum <= 36){
+        if (sum <= 36&& sum > 0){
             System.out.println("1 podezd;");
             if (sum <= 4){
                 System.out.println("1 etazh;");
