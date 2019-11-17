@@ -6,13 +6,9 @@ public class CaseD {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        if ((a+b)>c){
-            if ((a+c)>b){
-                if ((b+c)>a){
+        if ((a+b)>c || (a+c)>b || (c+b)>a){
                     System.out.println("такой треугольник существует");
-                }
-            }
-        }else {
+                }else {
             System.out.println("такой треугольник не может существовать");}
     }
 }
