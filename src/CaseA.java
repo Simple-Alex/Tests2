@@ -8,11 +8,11 @@ public class CaseA {
         int c = sc.nextInt();
         int d = sc.nextInt();
         int max = a;
-        if (max < b && max > c && max > d){
+        if (max < b){
             max = b;
-        }else if (max < c && max > b && max > d){
+        }if (max < c){
             max = c;
-        }else if (max < d){
+        }if (max < d){
             max = d;
         }else { }System.out.println(max);
     }

@@ -90,6 +90,8 @@ public class CaseB {
             }
         }if (sum > 144){
             System.out.println("takoi kvartiri v etom dome net");
+        }else {
+            System.out.println("takoi kvartiri net");
         }
     }
 }
