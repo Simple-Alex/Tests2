@@ -32,9 +32,9 @@ public class MethodCaseB {
         }return 11;
     }
 
-    public static void string() {
+    public static void string(int count) {
         String str = "asgdv maklsd lkasd";
-        int count = 0;
+        count = 0;
         if (str.length() != 0) {
             count++;
             for (int i = 0; i < str.length(); i++) {
