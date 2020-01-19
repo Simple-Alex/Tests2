@@ -92,7 +92,7 @@ public class Vector3d {
     @Override
     public String toString() {
         return "Vector3d : " + vectorsSum()
-                + "vectorDecrease: " + vectorDecrease()
-                +"scalyarMultiplication: "+scalaryMultiplication();
+                + ", vectorDecrease: " + vectorDecrease()
+                +", scalyarMultiplication: "+scalaryMultiplication();
     }
 }
