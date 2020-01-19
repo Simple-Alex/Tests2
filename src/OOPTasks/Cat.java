@@ -20,13 +20,13 @@ public class Cat {
         this.age = age;
     }
 
-    public Cat(String name, String color, double age ) {
+    public Cat(String name, String color, double age) {
         this.name = name;
         this.age = age;
         this.color = color;
     }
 
-    public Cat(String name, String color, double age , int weight) {
+    public Cat(String name, String color, double age, int weight) {
         this.name = name;
         this.age = age;
         this.color = color;
@@ -39,20 +39,6 @@ public class Cat {
         this.color = color;
         this.weight = weight;
         this.speed = speed;
-    }
-
-    public static void bite(String part){
-        System.out.println("cat bite you in "+part);
-    }
-    public static void voice(){
-        System.out.println("mrrr");
-    }
-    public static void sprint(int speed){
-        System.out.println("cat is sprint with "+speed+"km of speed");
-        speed = speed + speed;
-    }
-    public static void premonition(){
-        System.out.println("anticipates something ");
     }
 
     public String getName() {
@@ -71,13 +57,13 @@ public class Cat {
         this.age = age;
     }
 
-    public String getColor() {
-        System.out.println(color);
-        return color;
-    }
 
     public void setColor(String color) {
         this.color = color;
+    }
+
+    public String getColor() {
+        return color;
     }
 
     public int getWeight() {
@@ -94,5 +80,28 @@ public class Cat {
 
     public void setSpeed(int speed) {
         this.speed = speed;
+    }
+
+    public static void bite(String part) {
+        System.out.println("cat bite you in " + part);
+    }
+
+    public void voice() {
+        System.out.println("mrrr");
+    }
+
+    public void sprint() {
+        System.out.println("cat is sprint with " + speed + "km of speed");
+
+    }
+
+    public void premonition() {
+        System.out.println("anticipates something ");
+    }
+
+
+    @Override
+    public String toString() {
+        return "Cat name = " + name + ", weight = " + weight + ", color = " + color + ", age =" + age;
     }
 }
