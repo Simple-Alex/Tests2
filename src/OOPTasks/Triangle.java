@@ -1,5 +1,7 @@
 package OOPTasks;
 
+import Shape.Shape;
+
 public class Triangle {
     private double side1;
     private double side2;
