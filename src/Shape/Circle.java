@@ -50,7 +50,7 @@ public class Circle extends Shape {
     public String toString() {
         return "Circle{" +
                 "Area = " + getArea() +
-                ", Circumference =" + getCircumference() +
+                ", Circumference = " + getCircumference() +
                 '}';
     }
 }

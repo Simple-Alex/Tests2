@@ -56,11 +56,9 @@ public class Triangle1 extends Shape {
 
     @Override
     public String toString() {
-        System.out.println(getArea());   //нужны ли такие строки в серверном приложении...?
-        return "Triangle1{" +
-                "a=" + a +
-                ", b=" + b +
-                ", c=" + c +
+        //нужны ли такие строки в серверном приложении...?
+        return "Triangle1 = {" +
+                getArea()+
                 '}';
 
     }

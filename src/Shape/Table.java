@@ -56,6 +56,6 @@ public class Table {
 
     @Override
     public String toString() {
-        return "Table [table=" + Arrays.toString(table) + "]";
+        return "Table [table area = " + getArea() + "]";
     }
 }
